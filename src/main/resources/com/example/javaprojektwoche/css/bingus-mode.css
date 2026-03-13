@@ -1,0 +1,187 @@
+/* BUTTONS ---------------------------------------------------------------------- */
+
+.blue-button, .darkgreen-button {
+    -fx-background-color: #0B003F;
+    -fx-border-color: aliceblue;
+}
+
+.blue-button:hover, .darkgreen-button:hover {
+    -fx-background-color: #080030;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+/* GRID ---------------------------------------------------------------------- */
+
+#grid {
+    -fx-background-image: url("../sprites/bingus_board.png");
+}
+
+/* ICONS ---------------------------------------------------------------------- */
+
+.dog-white {
+    -fx-background-image: url("../sprites/bingus_dog_white.png");
+}
+
+.dog-blue {
+    -fx-background-image: url("../sprites/bingus_dog_blue.png");
+}
+
+.dog-yellow {
+    -fx-background-image: url("../sprites/bingus_dog_yellow.png");
+}
+
+.dog-red {
+    -fx-background-image: url("../sprites/bingus_dog_red.png");
+}
+
+.person-white {
+    -fx-background-image: url("../sprites/bingus_person_white.png");
+}
+
+.person-blue {
+    -fx-background-image: url("../sprites/bingus_person_blue.png");
+}
+
+.person-yellow {
+    -fx-background-image: url("../sprites/bingus_person_yellow.png");
+}
+
+.person-red {
+    -fx-background-image: url("../sprites/bingus_person_red.png");
+}
+
+.cat {
+    -fx-background-image: url("../sprites/bingus_cat.png");
+}
+
+.tree {
+    -fx-background-image: url("../sprites/bingus_tree.png");
+}
+
+/* MISC & BG ---------------------------------------------------------------------- */
+
+.sky {
+    -fx-background-color: transparent;
+    -fx-background-size: cover;
+    -fx-background-image: url("../sprites/bingus_sky.png");
+}
+
+.grass {
+    -fx-background-color: transparent;
+    -fx-background-size: cover;
+    -fx-background-image: url("../sprites/bingus_sky.png");
+}
+
+.title {
+    -fx-background-size: cover;
+    -fx-background-image: url("../sprites/bingus_title.png");
+}
+
+/* MENU UTIL ---------------------------------------------------------------------- */
+
+/* SCROLL PANE */
+
+.scroll-bar:vertical .track{
+    -fx-background-color: #0B003F;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: white;
+}
+
+.scroll-pane {
+    -fx-border-color: #0B032B;
+}
+
+.viewport {
+    -fx-background-color: #0B032B;
+    -fx-border-color: #0B032B;
+}
+
+.scroll-pane .corner {
+    -fx-background-color: #0B003F;
+}
+
+.scroll-pane .increment-button, .scroll-pane .decrement-button {
+    -fx-border-color: #0B003F;
+    -fx-background-color: #0B003F;
+}
+
+.scroll-pane .increment-arrow, .scroll-pane .decrement-arrow {
+    -fx-background-color: white;
+}
+
+/* SLIDER */
+
+.slider {
+    -fx-background-color: transparent;
+}
+
+.slider .track {
+    -fx-background-color: white;
+}
+
+.slider .thumb {
+    -fx-background-color: aliceblue;
+}
+
+.slider .thumb:hover {
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+}
+
+/* COMBO BOX */
+
+.combo-box {
+    -fx-background-color: #080029;
+    -fx-text-fill: aliceblue;
+    -fx-border-color: aliceblue;
+    -fx-border-radius: 5;
+}
+
+.combo-box .arrow {
+    -fx-background-color: aliceblue;
+}
+
+.combo-box .list-view .list-cell {
+    -fx-background-color: #080029;
+    -fx-text-fill: aliceblue;
+    -fx-border-color: aliceblue;
+}
+
+.combo-box .list-view .list-cell:hover {
+    -fx-background-color: #08003F;
+    -fx-text-fill: aliceblue;
+    -fx-border-color: aliceblue;
+}
+
+.combo-box .list-cell:selected {
+    -fx-text-fill: white;
+}
+
+.combo-box:hover {
+    -fx-background-color: #080029;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+/* GRID PANE */
+
+.grid {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+/* GAME SCREEN */
+#errorLabel {
+    -fx-text-fill: white;
+}
+
+.level-button {
+    -fx-background-color: transparent;
+}
+
+.level-button:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.2);
+}

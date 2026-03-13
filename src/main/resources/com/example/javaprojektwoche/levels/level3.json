@@ -1,0 +1,55 @@
+{
+  "difficulty": "starter",
+  "figures": [
+    {
+      "type": "tree",
+      "x": "0",
+      "y": "0"
+    },
+    {
+      "type": "person",
+      "color": "yellow",
+      "x": "1",
+      "y": "0"
+    },
+    {
+      "type": "dog",
+      "x": "2",
+      "y": "0"
+    },
+    {
+      "type": "person",
+      "color": "blue",
+      "x": "3",
+      "y": "0"
+    },
+    {
+      "type": "dog",
+      "x": "0",
+      "y": "1"
+    },
+    {
+      "type": "person",
+      "color": "red",
+      "x": "0",
+      "y": "2"
+    },
+    {
+      "type": "dog",
+      "x": "3",
+      "y": "2"
+    },
+    {
+      "type": "dog",
+      "x": "2",
+      "y": "3"
+    }
+  ],
+  "leashes": [
+    {
+      "master": "1:0",
+      "tree": "0:0",
+      "dog": "0:1"
+    }
+  ]
+}

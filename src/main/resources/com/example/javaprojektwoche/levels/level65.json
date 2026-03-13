@@ -1,0 +1,26 @@
+{
+  "difficulty": "master",
+  "figures": [
+    {
+      "type": "cat",
+      "x": "2",
+      "y": "0"
+    },
+    {
+      "type": "cat",
+      "x": "0",
+      "y": "1"
+    },
+    {
+      "type": "tree",
+      "x": "2",
+      "y": "1"
+    },
+    {
+      "type": "person",
+      "color": "white",
+      "x": "3",
+      "y": "2"
+    }
+  ]
+}

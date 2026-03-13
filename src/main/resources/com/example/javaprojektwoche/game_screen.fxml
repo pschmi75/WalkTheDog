@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="-6.0" layoutY="-9.0" prefHeight="414.0" prefWidth="612.0" styleClass="grass" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="38.0" prefWidth="90.0" styleClass="darkgreen-button" text="Exit" textFill="WHITE" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="25.0">
+         <font>
+            <Font name="Monospaced Bold" size="18.0" />
+         </font></Button>
+
+       <GridPane id="grid" fx:id="boardContainer" layoutX="160.0" layoutY="83.0" minWidth="-Infinity" prefHeight="256.0" prefWidth="256.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" />
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="1" />
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="2" />
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="3" />
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.rowIndex="1" />
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.rowIndex="2" />
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.rowIndex="3" />
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+         </children>
+      </GridPane>
+       <GridPane id="leash-grid" fx:id="boardContainer1" layoutX="160.0" layoutY="83.0" minWidth="-Infinity" prefHeight="256.0" prefWidth="256.0">
+           <columnConstraints>
+               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+           </columnConstraints>
+           <rowConstraints>
+               <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+               <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+               <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+               <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+           </rowConstraints>
+           <children>
+               <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" />
+               <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="1" />
+               <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="2" />
+               <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="3" />
+               <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.rowIndex="1" />
+               <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+               <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+               <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+               <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.rowIndex="2" />
+               <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+               <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+               <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+               <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.rowIndex="3" />
+               <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+               <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+               <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#tileClick" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+           </children>
+       </GridPane>
+
+       <Label fx:id="title" alignment="CENTER" layoutX="170.0" layoutY="19.0" prefHeight="51.0" prefWidth="237.0" text="Level ---" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Monospaced Bold" size="42.0" />
+         </font>
+      </Label>
+      <Label fx:id="errorLabel" id="errorLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="30.0" layoutY="355.0" prefHeight="23.0" prefWidth="525.0" text="">
+         <font>
+            <Font name="Monospaced Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="dog_selector" layoutX="483.0" layoutY="83.0" prefHeight="70.0" prefWidth="70.0" />
+      <Label fx:id="person_selector" layoutX="483.0" layoutY="147.0" prefHeight="70.0" prefWidth="70.0" />
+      <Label fx:id="leash_selector" layoutX="483.0" layoutY="211.0" prefHeight="70.0" prefWidth="70.0" />
+      <Label fx:id="trash_selector" layoutX="483.0" layoutY="275.0" prefHeight="70.0" prefWidth="70.0" />
+      <Button id="undo" layoutX="28.0" layoutY="184.0" mnemonicParsing="false" onMouseClicked="#undo" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: transparent;" styleClass="darkgreen-button" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="184.0" />
+      <Button id="redo" layoutX="81.0" layoutY="183.0" mnemonicParsing="false" onMouseClicked="#redo" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: transparent;" styleClass="darkgreen-button" AnchorPane.leftAnchor="81.0" AnchorPane.topAnchor="183.0" />
+      <Button id="reset" layoutX="53.0" layoutY="128.0" mnemonicParsing="false" onMouseClicked="#reset" prefHeight="32.0" prefWidth="32.0" style="-fx-border-color: transparent;" styleClass="darkgreen-button" AnchorPane.leftAnchor="53.0" AnchorPane.topAnchor="128.0" />
+      <VBox id="selector" layoutX="486.0" layoutY="86.0" prefHeight="256.0" prefWidth="64.0">
+         <children>
+            <Button fx:id="dog_button" alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#selectDog" prefHeight="64.0" prefWidth="64.0" styleClass="darkgreen-button" />
+            <Button fx:id="person_button" alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#selectPerson" prefHeight="64.0" prefWidth="64.0" styleClass="darkgreen-button" />
+            <Button alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#selectLeash" prefHeight="64.0" prefWidth="64.0">
+               <styleClass>
+                  <String fx:value="leash-icon" />
+                  <String fx:value="darkgreen-button" />
+               </styleClass></Button>
+            <Button id="del" alignment="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#selectTrash" prefHeight="64.0" prefWidth="64.0" styleClass="darkgreen-button" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

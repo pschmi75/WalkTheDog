@@ -1,0 +1,38 @@
+{
+  "difficulty": "master",
+  "figures": [
+    {
+      "type": "dog",
+      "x": "0",
+      "y": "0"
+    },
+    {
+      "type": "cat",
+      "x": "2",
+      "y": "0"
+    },
+    {
+      "type": "person",
+      "color": "white",
+      "x": "3",
+      "y": "0"
+    },
+    {
+      "type": "person",
+      "color": "white",
+      "x": "1",
+      "y": "1"
+    },
+    {
+      "type": "person",
+      "color": "white",
+      "x": "0",
+      "y": "2"
+    },
+    {
+      "type": "tree",
+      "x": "1",
+      "y": "2"
+    }
+  ]
+}

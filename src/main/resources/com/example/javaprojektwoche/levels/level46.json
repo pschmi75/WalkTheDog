@@ -1,0 +1,27 @@
+{
+  "difficulty": "expert",
+  "figures": [
+    {
+      "type": "person",
+      "color": "white",
+      "x": "2",
+      "y": "1"
+    },
+    {
+      "type": "cat",
+      "x": "3",
+      "y": "2"
+    },
+    {
+      "type": "person",
+      "color": "white",
+      "x": "0",
+      "y": "3"
+    },
+    {
+      "type": "cat",
+      "x": "3",
+      "y": "3"
+    }
+  ]
+}

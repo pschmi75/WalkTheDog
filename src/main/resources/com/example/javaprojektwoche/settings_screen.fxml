@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="-9.0" layoutY="-11.0" prefHeight="418.0" prefWidth="620.0" styleClass="sky" />
+      <Label alignment="CENTER" layoutX="133.0" layoutY="36.0" prefHeight="51.0" prefWidth="334.0" text="Options" textFill="WHITE">
+         <font>
+            <Font name="Monospaced Bold" size="42.0" />
+         </font>
+      </Label>
+      <Button layoutX="31.0" layoutY="31.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="32.0" prefWidth="32.0" styleClass="blue-button" text="&lt;-" textFill="WHITE" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="25.0">
+         <font>
+            <Font name="Monospaced Bold" size="18.0" />
+         </font></Button>
+      <Slider fx:id="volumeSlider" layoutX="185.0" layoutY="135.0" max="100" min="0" prefHeight="14.0" prefWidth="298.0" value="50" />
+      <Label layoutX="100.0" layoutY="131.0" text="Volume" textFill="WHITE">
+         <font>
+            <Font name="Monospaced Bold" size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="skinChoice" layoutX="185.0" layoutY="185.0" prefWidth="150.0" />
+      <Label layoutX="100.0" layoutY="186.0" text="Mode" textFill="WHITE">
+         <font>
+            <Font name="Monospaced Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="-9.0" layoutY="-11.0" prefHeight="418.0" prefWidth="620.0" styleClass="grass" />
+        <Label alignment="CENTER" layoutX="39.0" layoutY="33.0" prefHeight="51.0" prefWidth="522.0" text="Are you sure you want to quit?" textFill="WHITE">
+            <font>
+                <Font name="Monospaced Bold" size="24.0" />
+            </font>
+        </Label>
+        <VBox layoutX="246.0" layoutY="177.0" spacing="20.0">
+            <Button mnemonicParsing="false" onMouseClicked="#quit" prefHeight="1.0" prefWidth="108.0" styleClass="darkgreen-button" text="Quit" textFill="WHITE">
+                <font>
+                    <Font name="Monospaced Bold" size="18.0" />
+                </font>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#cancel" prefHeight="1.0" prefWidth="108.0" styleClass="darkgreen-button" text="Cancel" textFill="WHITE">
+                <font>
+                    <Font name="Monospaced Bold" size="18.0" />
+                </font></Button>
+        </VBox>
+
+
+    </children>
+</AnchorPane>

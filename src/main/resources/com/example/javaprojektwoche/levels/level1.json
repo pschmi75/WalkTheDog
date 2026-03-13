@@ -1,0 +1,59 @@
+{
+  "difficulty": "starter",
+  "figures": [
+    {
+      "type": "person",
+      "color": "yellow",
+      "x": "1",
+      "y": "0"
+    },
+    {
+      "type": "dog",
+      "x": "2",
+      "y": "0"
+    },
+    {
+      "type": "cat",
+      "x": "0",
+      "y": "1"
+    },
+    {
+      "type": "cat",
+      "x": "3",
+      "y": "1"
+    },
+    {
+      "type": "dog",
+      "x": "1",
+      "y": "2"
+    },
+    {
+      "type": "person",
+      "color": "blue",
+      "x": "3",
+      "y": "2"
+    },
+    {
+      "type": "dog",
+      "x": "0",
+      "y": "3"
+    },
+    {
+      "type": "person",
+      "color": "red",
+      "x": "2",
+      "y": "3"
+    },
+    {
+      "type": "dog",
+      "x": "3",
+      "y": "3"
+    }
+  ],
+  "leashes": [
+    {
+      "master": "2:3",
+      "dog": "2:0"
+    }
+  ]
+}

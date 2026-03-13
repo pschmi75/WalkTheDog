@@ -1,0 +1,36 @@
+{
+  "difficulty": "junior",
+  "figures": [
+    {
+      "type": "dog",
+      "x": "0",
+      "y": "0"
+    },
+    {
+      "type": "tree",
+      "x": "1",
+      "y": "0"
+    },
+    {
+      "type": "cat",
+      "x": "2",
+      "y": "0"
+    },
+    {
+      "type": "person",
+      "color": "white",
+      "x": "3",
+      "y": "0"
+    },
+    {
+      "type": "dog",
+      "x": "0",
+      "y": "2"
+    },
+    {
+      "type": "cat",
+      "x": "3",
+      "y": "3"
+    }
+  ]
+}

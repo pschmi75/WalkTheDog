@@ -1,0 +1,27 @@
+{
+  "difficulty": "starter",
+  "figures": [
+    {
+      "type": "person",
+      "color": "white",
+      "x": "1",
+      "y": "0"
+    },
+    {
+      "type": "person",
+      "color": "white",
+      "x": "3",
+      "y": "0"
+    },
+    {
+      "type": "cat",
+      "x": "2",
+      "y": "1"
+    },
+    {
+      "type": "cat",
+      "x": "2",
+      "y": "2"
+    }
+  ]
+}

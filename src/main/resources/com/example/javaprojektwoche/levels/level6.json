@@ -1,0 +1,53 @@
+{
+  "difficulty": "starter",
+  "figures": [
+    {
+      "type": "person",
+      "color": "white",
+      "x": "1",
+      "y": "0"
+    },
+    {
+      "type": "dog",
+      "x": "3",
+      "y": "0"
+    },
+    {
+      "type": "dog",
+      "x": "0",
+      "y": "1"
+    },
+    {
+      "type": "person",
+      "color": "white",
+      "x": "3",
+      "y": "1"
+    },
+    {
+      "type": "cat",
+      "x": "1",
+      "y": "2"
+    },
+    {
+      "type": "cat",
+      "x": "2",
+      "y": "2"
+    },
+    {
+      "type": "person",
+      "color": "blue",
+      "x": "3",
+      "y": "2"
+    },
+    {
+      "type": "dog",
+      "x": "0",
+      "y": "3"
+    },
+    {
+      "type": "dog",
+      "x": "3",
+      "y": "3"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+/* BUTTONS ---------------------------------------------------------------------- */
+
+.button {
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat
+}
+
+#green-button {
+    -fx-background-color: #84f834;
+    -fx-border-color: aliceblue;
+}
+
+#green-button:hover {
+    -fx-background-color: #7Cf02C;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+#yellow-button {
+    -fx-background-color: #F2D324;
+    -fx-border-color: aliceblue;
+}
+
+#yellow-button:hover {
+    -fx-background-color: #EACB1C;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+#red-button {
+    -fx-background-color: #f52727;
+    -fx-border-color: aliceblue;
+}
+
+#red-button:hover {
+    -fx-background-color: #ED1F1F;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+#purple-button {
+    -fx-background-color: #A012ED;
+    -fx-border-color: aliceblue;
+}
+
+#purple-button:hover {
+    -fx-background-color: #980AE5;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+/* GRID ---------------------------------------------------------------------- */
+
+#grid .button, #leash-grid .button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#grid, #leash-grid {
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+/* ICONS ---------------------------------------------------------------------- */
+
+#reset {
+    -fx-background-image: url("../sprites/reset.png");
+}
+
+#undo {
+    -fx-background-image: url("../sprites/undo.png");
+}
+
+#redo {
+    -fx-background-image: url("../sprites/redo.png");
+}
+
+#del {
+    -fx-background-image: url("../sprites/delete.png");
+}
+
+.leash-icon {
+    -fx-background-image: url("../sprites/leash_icon.png");
+}
+
+/* LEASH ---------------------------------------------------------------------- */
+
+.leash-h /* horizontal */ {
+    -fx-background-image: url("../sprites/leash_h.png");
+}
+
+.leash-n /* north */ {
+    -fx-background-image: url("../sprites/leash_n.png");
+}
+
+.leash-e /* east */ {
+    -fx-background-image: url("../sprites/leash_e.png");
+}
+
+.leash-s /* south */ {
+    -fx-background-image: url("../sprites/leash_s.png");
+}
+
+.leash-w /* west */ {
+    -fx-background-image: url("../sprites/leash_w.png");
+}
+
+.leash-v /* vertical */ {
+    -fx-background-image: url("../sprites/leash_v.png");
+}
+
+.leash-ne /* northeast */ {
+    -fx-background-image: url("../sprites/leash_ne.png");
+}
+
+.leash-se /* southeast */ {
+    -fx-background-image: url("../sprites/leash_se.png");
+}
+
+.leash-sw /* southwest */ {
+    -fx-background-image: url("../sprites/leash_sw.png");
+}
+
+.leash-nw /* northwest */ {
+    -fx-background-image: url("../sprites/leash_nw.png");
+}
+
+/* MISC & BG ---------------------------------------------------------------------- */
+
+#selected-tool {
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-image: url("../sprites/selected.png")
+}
+
+.combo-box {
+    -fx-font-family: "Monospaced";
+}
